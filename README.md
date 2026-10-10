@@ -17,6 +17,7 @@ This repository helps teams turn an idea into a reviewable blueprint before impl
 3. [Key Features](#3-key-features)
 4. [PRD Philosophy](#4-prd-philosophy)
 5. [How It Works](#5-how-it-works)
+- [Built with a PRD-Driven Approach — Real-World Portfolio](#built-with-a-prd-driven-approach--real-world-portfolio)
 6. [Quick Start](#6-quick-start)
 7. [Project Profiles](#7-project-profiles)
 8. [Repository Structure](#8-repository-structure)
@@ -104,6 +105,36 @@ This is a recommended process, not an automatic enforcement mechanism. The peopl
 
 For the complete lifecycle, see [PRD Workflow](docs/prd-workflow.md).
 
+## Built with a PRD-Driven Approach — Real-World Portfolio
+
+From structured requirements and interface planning to publicly accessible institutional web applications, these research-grant-supported projects illustrate how a PRD-driven development approach can guide interface design, application flows, API integration, and iterative implementation. The descriptions below are limited to contributor-confirmed context and behavior visible on the public landing pages; they do not independently validate backend algorithms, security strength, or production test coverage.
+
+### Digital Certificates Authentication
+
+[![Digital Certificates Authentication landing page](docs/images/portfolio/digital-certificates-authentication.jpg)](https://ijazah.cgant-project.com/)
+
+An institutional web application developed through a PUI-PT CGANT research-grant-supported initiative. Its public interface presents structured certificate verification paths using a serial or certificate number and document upload; the landing page also references QR-code scanning, watermark checks, and data matching. These statements describe the visible workflow and do not claim independent verification of the underlying authentication or security implementation.
+
+- **Application type:** Institutional digital-certificate verification web application.
+- **PRD-driven workflow highlights:** staged verification choices, explicit input and upload journeys, structured informational results, and coordinated interface/API planning.
+- **Attribution:** PUI-PT CGANT, Universitas Jember.
+- **Live website:** [Visit Digital Certificates Authentication](https://ijazah.cgant-project.com/)
+
+### Graph-Based Video Watermark Authentication
+
+[![Graph-Based Video Watermark Authentication landing page](docs/images/portfolio/video-watermark-authentication.jpg)](https://video.cgant-project.com/)
+
+A video-authentication web application developed through a PUI-PT CGANT research-grant-supported initiative. Its public interface presents Watermark ID and video-upload authentication paths plus a structured conceptual workflow from upload and analysis through validation and authentication. The interface references graph-based watermarking concepts, but this showcase does not claim independent verification of the algorithm, security properties, or authentication accuracy.
+
+- **Application type:** Video watermark authentication web application.
+- **PRD-driven workflow highlights:** alternative ID/upload journeys, an explicit multi-stage verification flow, visible system concepts, and coordinated interface/API planning.
+- **Attribution:** PUI-PT CGANT, Universitas Jember.
+- **Live website:** [Visit Graph-Based Video Watermark Authentication](https://video.cgant-project.com/)
+
+These are independent real-world projects developed using a PRD-driven approach. The master template in this repository generalizes lessons from such workflows; it is not the original specification used verbatim for every project.
+
+> **Screenshot asset notice:** Institutional logos, photographs, and branding shown in the project screenshots remain the property of their respective owners and are not covered by the repository's open-source license. The repository does not yet include an open-source license; this exclusion must remain when one is selected.
+
 ## 6. Quick Start
 
 1. Clone or download this repository.
@@ -152,6 +183,10 @@ Add alternate and failure flows, multiple data scopes, integrations, async proce
     +-- prd-workflow.md
     +-- ai-agent-guide.md
     +-- review-notes-v0.2.md
+    +-- images/
+        +-- portfolio/
+            +-- digital-certificates-authentication.jpg
+            +-- video-watermark-authentication.jpg
 ```
 
 ## 9. Master PRD Template
